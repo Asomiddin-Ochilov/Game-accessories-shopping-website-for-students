@@ -1,0 +1,192 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.container .header {
+  width: 100%;
+  height: 100vh;
+  margin-top: 135px;
+  background-image: url(./img/RSTVH4xq3EgCPmDCYTujRX.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .header .block {
+  width: 70%;
+  height: 350px;
+}
+
+.container .header .block h4 {
+  color: #da2f4f;
+  font-size: 25px;
+}
+
+.container .header .block h1 {
+  font-size: 50px;
+  margin: 0.7rem 0;
+}
+
+.container .header .block .block-footer {
+  width: 40%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .header .block .block-footer button {
+  width: 50%;
+  height: 50px;
+  border: none;
+  background-color: #2D74FF;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container .header .block .block-footer p {
+  margin-left: 15px;
+}
+
+.container .header .block .block-footer .p-2 {
+  text-decoration: line-through;
+  color: gray;
+}
+
+@media screen and (max-width: 577px) {
+  .container .header {
+    margin-top: 70px !important;
+  }
+}
+
+.container .banner {
+  width: 72%;
+  height: 280px;
+  margin-top: 5% !important;
+  background-image: url(./img/qebqcymb9c971-scaled.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+}
+
+.container .banner h1 {
+  font-size: 70px;
+  text-align: center;
+  background: linear-gradient(150deg, #19c35e, #19c35e, #aa3ed4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 577px) {
+  .container .banner {
+    width: 90%;
+    height: auto;
+    padding: 2rem 0;
+  }
+  .container .banner h1 {
+    font-size: 50px;
+  }
+}
+
+.container .card-group {
+  width: 72%;
+  height: auto;
+  margin: 3rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .card-group .card {
+  width: 23%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1.5rem 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 10px;
+  -webkit-box-shadow: 0px 1px 16px -6px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px 1px 16px -6px rgba(34, 60, 80, 0.2);
+  cursor: pointer;
+}
+
+.container .card-group .card:hover {
+  border: 1px solid rgba(184, 181, 181, 0.363);
+}
+
+.container .card-group .card img {
+  width: 180px;
+  height: 180px;
+}
+
+.container .card-group .card .card-footer {
+  width: 100%;
+  height: 70px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+.container .card-group .card .card-footer p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #727070;
+}
+
+.container .card-group .card .card-footer p span {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #eb516d;
+}
+
+.container .card-group .card .card-footer p .p {
+  text-decoration: line-through;
+  color: gray;
+}
+/*# sourceMappingURL=chair-Style.css.map */

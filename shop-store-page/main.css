@@ -1,0 +1,269 @@
+.table {
+  width: 100%;
+  height: 80vh;
+  margin-top: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 10px;
+}
+
+.table .tab {
+  width: 66%;
+}
+
+.table table {
+  width: 100%;
+  border: 1px solid #ccc7c7;
+}
+
+.table table th {
+  text-align: left;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ccc7c7;
+}
+
+.table table td {
+  border-bottom: 1px solid #ccc7c7;
+}
+
+.table table .product-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.table table .product-name img {
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+
+.table table .counter {
+  background-color: #d3cfcf;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.table table .counter span {
+  width: 20px;
+  background-color: #c5c3c7;
+  display: inline-block;
+}
+
+.table table .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 10px;
+}
+
+.table table .total span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #c5c3c7;
+}
+
+@media (min-width: 1065px) and (max-width: 1200px) {
+  .table table .counter {
+    width: 70%;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1065px) {
+  .table table .counter {
+    width: 70%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 850px) {
+  .table table .counter {
+    width: 70%;
+  }
+}
+
+.table .orders {
+  width: 33%;
+  height: 350px;
+  border-left: 1px solid #ccc7c7;
+  border-right: 1px solid #ccc7c7;
+}
+
+.table .orders h1, .table .orders p {
+  width: 100%;
+  border: 1px solid #ccc7c7;
+  padding: 1rem 5px;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.table .orders p {
+  font-size: 18px;
+  border: none;
+}
+
+.table .orders .p {
+  color: green;
+}
+
+.table .orders button {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  outline: none;
+  background-color: #2d74ff;
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-box-shadow: 1px 11px 12px -2px rgba(34, 144, 229, 0.2);
+          box-shadow: 1px 11px 12px -2px rgba(34, 144, 229, 0.2);
+}
+
+@media (min-width: 850px) and (max-width: 1065px) {
+  .table {
+    height: auto;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .table .tab {
+    width: 90%;
+  }
+  .table table {
+    width: 100%;
+  }
+  .table .orders {
+    width: 90%;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 850px) {
+  .table {
+    height: auto;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .table .tab {
+    width: 90%;
+  }
+  .table table {
+    width: 100%;
+  }
+  .table .orders {
+    width: 90%;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .table {
+    height: auto;
+    padding-bottom: 1rem;
+    padding-top: 5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .table .tab {
+    width: 100%;
+  }
+  .table table {
+    width: 100%;
+  }
+  .table .orders {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .table {
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 1rem;
+    padding-top: 5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .table .tab {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .table table {
+    width: 100% !important;
+  }
+  .table table .product-name {
+    width: 250px;
+  }
+  .table table p {
+    width: 120px;
+  }
+  .table table .counter {
+    width: 60px;
+    margin-right: 1.4rem;
+  }
+  .table table .total {
+    width: 130px;
+    margin-right: 1rem;
+  }
+  .table .orders {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
